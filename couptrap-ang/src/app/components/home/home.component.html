@@ -4,7 +4,7 @@
       <h3 class="has-info">{{validMessage}}</h3>
     </div>
     <div class="form-group">
-      <label>Buyer Name</label>
+      <label>Costumer Name</label>
       <input type="text" class="form-control" formControlName="name" required autofocus/>
     </div>
     <div class="form-group">
@@ -16,9 +16,9 @@
       <input type="text" class="form-control" formControlName="phone" required/>
     </div>
     <div class="form-group">
-      <label>Bike Model</label>
+      <label>Coupon Type</label>
       <select class="form-control" formControlName="model" required>
-        <option value="">Please select a bike</option>
+        <option value="">Please select a Coupon</option>
         <option *ngFor="let m of models"
                 [value]="m">
                 {{m}}
@@ -26,7 +26,7 @@
       </select>
     </div>
     <div class="form-group">
-      <label>Bike Serial Number</label>
+      <label>Serial Number</label>
       <input type="text" class="form-control" formControlName="serialNumber" required/>
     </div>
     <div class="form-group">

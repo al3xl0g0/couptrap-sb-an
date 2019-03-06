@@ -10,9 +10,14 @@ import { Observable } from 'rxjs/Observable';
 })
 export class HomeComponent implements OnInit {
   models: string[] = [
-    'Globo MTB 29 Full Suspension',
-    'Globo Carbon Fiber Race Series',
-    'Globo Time Trial Blade',
+    'RESTURANTS',
+    'ELECTRICITY',
+    'FOOD',
+    'HEALTH',
+    'SPORTS',
+    'CAMPING',
+    'TRAVELLING',
+
   ];
   bikeform: FormGroup;
   validMessage: string = "";
